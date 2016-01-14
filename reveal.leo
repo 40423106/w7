@@ -44,6 +44,11 @@
 <v t="leo.20151116184206.1"><vh>@edit 2015cphww6.md</vh></v>
 <v t="leo.20151116184546.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="leo.20151116184548.1"><vh>@edit 2015cphww8.md</vh></v>
+<v t="leo.20160114215836.1"><vh>@edit 2015cphww11.md</vh></v>
+<v t="leo.20160114222710.1"><vh>@edit 2015cphww12.md</vh></v>
+<v t="leo.20160114222712.1"><vh>@edit 2015cphww14.md</vh></v>
+<v t="leo.20160114222713.1"><vh>@edit 2015cphww15.md</vh></v>
+<v t="leo.20160114222715.1"><vh>@edit 2015cphww17.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -494,6 +499,20 @@
 <v t="amd.20150915170743.149"><vh>script</vh></v>
 <v t="amd.20150915170743.150"><vh>script</vh></v>
 </v>
+</v>
+</v>
+<v t="leo.20160114215801.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160114215801.2"><vh>Recovered node "有關我的作業" from @clean simplest.html</vh>
+<v t="leo.20160114215801.3"><vh>old:有關我的作業</vh></v>
+<v t="leo.20160114215801.4"><vh>new:有關我的作業</vh></v>
+</v>
+<v t="leo.20160114215801.5"><vh>Recovered node "作業任務一" from @clean simplest.html</vh>
+<v t="leo.20160114215801.6"><vh>old:作業任務一</vh></v>
+<v t="leo.20160114215801.7"><vh>new:作業任務一</vh></v>
+</v>
+<v t="leo.20160114215801.8"><vh>Recovered node "作業任務2" from @clean simplest.html</vh>
+<v t="leo.20160114215801.9"><vh>old:作業任務2</vh></v>
+<v t="leo.20160114215801.10"><vh>new:作業任務2</vh></v>
 </v>
 </v>
 </vnodes>
@@ -2019,25 +2038,15 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;w1作業&lt;/h1&gt;
-    &lt;p&gt;40423106 王翔佑&lt;/p&gt;		
+    &lt;h1&gt;四設計一甲&lt;/h1&gt;
+    &lt;p&gt;40423106王翔佑9/18&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;影片心得&lt;/h1&gt;
-    &lt;p&gt;%d是月內中的一天(0-31)&lt;/p&gt;
-          &lt;/p&gt;%Y是四位數的年份表示&lt;/p&gt;
-          &lt;/p&gt;%a是簡化的星期名稱&lt;/p&gt;
-          &lt;/p&gt;%B是完整的月份名稱&lt;/p&gt;
-          &lt;/p&gt;%b是簡化的月份名稱&lt;/p&gt;
-          &lt;/p&gt;例如&lt;/p&gt;
-          &lt;/p&gt;currentDate = datetime.date.today()&lt;/p&gt;
-          &lt;/p&gt;print(currentDate)&lt;/p&gt;
-          &lt;/p&gt;print(currentDate.strftime('%d %b, %Y'))&lt;/p&gt;
-          &lt;/p&gt;2015-11-05&lt;/p&gt;
-          &lt;/p&gt;05 Nov, 2015&lt;/p&gt;
-    
+    &lt;h1&gt;上課心得&lt;/h1&gt;
+    &lt;p&gt;老師教我們創一個github,並把東西git push上去,但因為第一次接觸所以一團亂&lt;/p&gt;
+          
 &lt;/section&gt;
 				
 </t>
@@ -2246,6 +2255,119 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20151022195724.1">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;第一次接觸還不太熟悉,自評:60&lt;/p&gt;
+          
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160114215801.1"></t>
+<t tx="leo.20160114215801.10">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;第一次接觸還不太熟悉,自評:60&lt;/p&gt;
+          
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160114215801.2">(uncached) amd.20150915211351.7
+Diff...
+  &lt;!-- 以下為投影片 --&gt;
+  &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+  &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+  &lt;section&gt;
+-     &lt;h1&gt;四設計一甲&lt;/h1&gt;
+?         ^^^^^
++     &lt;h1&gt;w1作業&lt;/h1&gt;
+?         ^^^^
+-     &lt;p&gt;40423106王翔佑9/18&lt;/p&gt;		
+?                   ----
++     &lt;p&gt;40423106 王翔佑&lt;/p&gt;		
+?                +
+  &lt;/section&gt;
+  	
+</t>
+<t tx="leo.20160114215801.3">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;w1作業&lt;/h1&gt;
+    &lt;p&gt;40423106 王翔佑&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20160114215801.4">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計一甲&lt;/h1&gt;
+    &lt;p&gt;40423106王翔佑9/18&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20160114215801.5">(uncached) amd.20150915211351.9
+Diff...
+  &lt;section id="hw-task-one"&gt;
+-     &lt;h1&gt;上課心得&lt;/h1&gt;
+?         ^^
++     &lt;h1&gt;影片心得&lt;/h1&gt;
+?         ^^
+-     &lt;p&gt;老師教我們創一個github,並把東西git push上去,但因為第一次接觸所以一團亂&lt;/p&gt;
+-           
++     &lt;p&gt;%d是月內中的一天(0-31)&lt;/p&gt;
++           &lt;/p&gt;%Y是四位數的年份表示&lt;/p&gt;
++           &lt;/p&gt;%a是簡化的星期名稱&lt;/p&gt;
++           &lt;/p&gt;%B是完整的月份名稱&lt;/p&gt;
++           &lt;/p&gt;%b是簡化的月份名稱&lt;/p&gt;
++           &lt;/p&gt;例如&lt;/p&gt;
++           &lt;/p&gt;currentDate = datetime.date.today()&lt;/p&gt;
++           &lt;/p&gt;print(currentDate)&lt;/p&gt;
++           &lt;/p&gt;print(currentDate.strftime('%d %b, %Y'))&lt;/p&gt;
++           &lt;/p&gt;2015-11-05&lt;/p&gt;
++           &lt;/p&gt;05 Nov, 2015&lt;/p&gt;
++     
+  &lt;/section&gt;
+  				
+</t>
+<t tx="leo.20160114215801.6">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;影片心得&lt;/h1&gt;
+    &lt;p&gt;%d是月內中的一天(0-31)&lt;/p&gt;
+          &lt;/p&gt;%Y是四位數的年份表示&lt;/p&gt;
+          &lt;/p&gt;%a是簡化的星期名稱&lt;/p&gt;
+          &lt;/p&gt;%B是完整的月份名稱&lt;/p&gt;
+          &lt;/p&gt;%b是簡化的月份名稱&lt;/p&gt;
+          &lt;/p&gt;例如&lt;/p&gt;
+          &lt;/p&gt;currentDate = datetime.date.today()&lt;/p&gt;
+          &lt;/p&gt;print(currentDate)&lt;/p&gt;
+          &lt;/p&gt;print(currentDate.strftime('%d %b, %Y'))&lt;/p&gt;
+          &lt;/p&gt;2015-11-05&lt;/p&gt;
+          &lt;/p&gt;05 Nov, 2015&lt;/p&gt;
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160114215801.7">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;上課心得&lt;/h1&gt;
+    &lt;p&gt;老師教我們創一個github,並把東西git push上去,但因為第一次接觸所以一團亂&lt;/p&gt;
+          
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160114215801.8">(uncached) leo.20151022195724.1
+Diff...
+  &lt;section id="hw-task-one"&gt;
+-     &lt;h1&gt;自評&lt;/h1&gt;
++     &lt;h1&gt;上課心得與自評&lt;/h1&gt;
+?         +++++
+-     &lt;p&gt;第一次接觸還不太熟悉,自評:60&lt;/p&gt;
++     &lt;p&gt;這禮拜學習到for i in range()的用法,也讓我對python有更進一步的了解,自評:70&lt;/p&gt;
+            
+      
+  &lt;/section&gt;
+  				
+</t>
+<t tx="leo.20160114215801.9">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;上課心得與自評&lt;/h1&gt;
     &lt;p&gt;這禮拜學習到for i in range()的用法,也讓我對python有更進一步的了解,自評:70&lt;/p&gt;
           
